@@ -104,11 +104,11 @@ var swiper = new Swiper(".mySwiper3", {
       slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
-  //   autoplay: {
-  //       delay: 2000,
-  //       disableOnInteraction: false,  
-  //       pauseOnMouseEnter: true,
-  // },
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,  
+        pauseOnMouseEnter: true,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
